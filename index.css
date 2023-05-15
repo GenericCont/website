@@ -20,16 +20,41 @@ body, html {
   
   .header nav ul li {
     display: inline;
-    margin-right: 10px;
+    margin-right: 30px;
   }
   
   .header nav ul li a {
     color: #fff;
     text-decoration: none;
   }
+
+  .header nav a:hover {
+    background: black;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+  }
+
+  .header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
   
   .header nav ul li a:hover {
     text-decoration: underline;
+  }
+
+  .header nav li {
+    margin-right: 40px;
+  }
+
+ .header nav li.login {
+  margin-right: 0;
+  margin-left: auto;
   }
   
   .section-top {
@@ -63,7 +88,7 @@ body, html {
     padding: 10px;
     color: white;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 20px;
     border-radius: 50px;
   }
 
