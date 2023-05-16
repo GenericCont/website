@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html>
-<body>
+<head>
+    <title>SignUp</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
 
+<header class="header">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li class="login"><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+</header>
+
+<body>
 <form action="login.php" method="POST">
     <h1>Login</h1>
     <input type="text" name="username" placeholder="Username">
     <input type="password" name="password" placeholder="Password">
-    <button type="submit">Login</button>
+    <button type="submit"><a class="login" href="dashboard.html">Login</a></button>
+</br></br>
+    <a class="signup" href="sign-up.html">Create an Account</a>
 </form>
 
 </body>

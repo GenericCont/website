@@ -71,6 +71,16 @@ form{
   margin-left: auto;
   }
 
+  .signup{
+    text-decoration: none;
+    color: white;
+  }
+
+  .login{
+      text-decoration: none;
+      color: white;
+  }
+
 form{
     margin-top: 50px;
     text-align: center;
@@ -101,3 +111,4 @@ form h1{
     margin-bottom: 30px;
     color: white;
 }
+
